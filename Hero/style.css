@@ -1,0 +1,137 @@
+body{
+    height: 1000px;
+    width: 1000px;
+    background-image: url("images/fire.jpg");
+}
+
+.container{
+    margin-top: 1px;
+    height: 500px;
+    width: 500px;
+    display: inline-flex;
+    background-color: purple;
+    border-radius: 20px;
+    position: absolute;
+    left: 200px;
+    opacity: 0.5;
+}
+
+.icon {
+    background-image: url("images/villain.GIF");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 50px;
+    top: 120px;
+}
+.iconic {
+    background-image: url("images/Hero.GIF");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: absolute;
+    left: 320px;
+    top: 70px;
+
+}
+.name1{
+    margin-left: 60px;
+    margin-top: 15px;
+    color: red;
+}
+.name2{
+    color: black;
+    margin-left: 400px;
+    top: 1px;
+    position: absolute;
+    right: 70px;
+}
+#start{
+    position: absolute;
+    left:200px;
+    height: 50px;
+    bottom: 170px;
+    width: 60px;
+    background-color: green;
+    margin-top: 400px;
+    margin-left: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: darkorange;
+    font-size: 15px;
+}
+.text{
+    border: 10px;
+    background-color: black;
+    color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.HealDiv {
+    position: absolute;
+    left: 100px;
+    bottom: 140px;
+    cursor: pointer;
+}
+
+#healHiroshima {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin-right: 2px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: 2px solid darkgreen;
+    cursor: pointer;
+}
+
+.HealDiv2 {
+    position: absolute;
+    right: 100px;
+    bottom: 140px;
+    cursor: pointer;
+}
+
+#healNagasaki {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin-left: 2px;
+    /* changed from 300px to 2px */
+    border-radius: 30px;
+    font-size: 15px;
+    border: 2px solid darkgreen;
+    cursor: pointer;
+}
+
+#hiroshimaHealth {
+    position: absolute;
+    left: 100px;
+    top: 360px;
+    /* changed from margin-top to top */
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    bottom: unset;
+    /* changed from bottom to unset */
+}
+
+#nagasakiHealth {
+    position: absolute;
+    left: 350px;
+    top: 360px;
+    /* changed from margin-top to top */
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    bottom: unset;
+    /* changed from bottom to unset */
+}
+
+#winner {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
